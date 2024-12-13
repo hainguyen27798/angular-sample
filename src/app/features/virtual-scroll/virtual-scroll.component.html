@@ -1,0 +1,5 @@
+<cdk-virtual-scroll-viewport class="h-screen" [itemSize]="40">
+  <div *cdkVirtualFor="let option of _list()" class="h-10">
+    {{ option }}
+  </div>
+</cdk-virtual-scroll-viewport>
